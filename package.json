@@ -1,0 +1,27 @@
+{
+  "name": "04tut",
+  "version": "1.0.0",
+  "description": "### Full Course - 7 hours / 15 chapters",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitdagray/node_js_resources.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gitdagray/node_js_resources/issues"
+  },
+  "homepage": "https://github.com/gitdagray/node_js_resources#readme",
+  "dependencies": {
+    "date-fns": "^2.29.2",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
