@@ -84,3 +84,9 @@
 - 🔗 [Chapter 14 Starter Code](https://github.com/gitdagray/mongodb_mongoose_intro)
 - 🔗 [Chapter 15 Starter Code](https://github.com/gitdagray/mongodb_mongoose_models)
 - 🔗 [Chapter 15 Complete Code](https://github.com/gitdagray/mongo_async_crud)
+
+# Node > require('crypto').randomBytes(64).toString('hex')
+
+ACCESS_TOKEN_SECRET_KEY=e2dda41a60339c5f009e44cc2604248f66584874a518c24c8212024453c7143ee5a469de5166a11cd5d23844bcdbfca3d4e208aea9470f18bc6d861f9494209a
+REFRESH_TOKEN_SECRET_KEY=a289a8225771e69ced10a6a9a302bdd6426902149a14ae0618e8be8150e89314a8b0e3e04d603f43f3d944baa72a310b4489258d78547243ed9a497ce56a323e
+DATABASE_URI=mongodb+srv://<USER>:<PWD>@cluster0.4dkjjif.mongodb.net/<DATABASE>?retryWrites=true&w=majority
