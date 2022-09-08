@@ -9,25 +9,10 @@ const handleNewUser = async (req, res) => {
     if (duplicated) return res.sendStatus(409);
     try {
         const hashedPassword = await bcrypt.hash(pwd, 10);
-        /*         
-            const newUser = new User();
-            newUser.username = user;
-            newUser.password = hashedPassword;
-        or
-            const newUser = new User({ 
+        const request = await User.create({ 
             username: user, 
             password: hashedPassword
-            });
-        then
-            const result = await newUser.save();
-        */
-       const request = await User.create({ 
-           username: user, 
-           password: hashedPassword
-       });
-
-        console.log(request);
-        
+        });        
         res.status(201).json({ 'success': `New user ${user} created!`})
     } catch (err) {
         res.status(500).json({ 'message': err.message });
